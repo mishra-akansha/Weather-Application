@@ -1,8 +1,14 @@
-export default function App() {
-  return (
-    <div>
-      <h1>Sandbox Pro</h1>
-      <h2>Your Personalised Coding Environment</h2>
-    </div>
-  );
-}
+import React from 'react';
+import UserProfile from './components/UserProfile.js';
+import PostList from './components/PostList.js';
+
+const App = () => {
+    return (
+        <div>
+            <UserProfile />
+            <PostList />
+        </div>
+    );
+};
+
+export default App;
